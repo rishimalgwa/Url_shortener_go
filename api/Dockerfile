@@ -1,4 +1,4 @@
-FROM golang:apline as builder
+FROM golang:alpine as builder
 
 RUN mkdir /build
 
