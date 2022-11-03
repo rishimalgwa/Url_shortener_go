@@ -6,10 +6,10 @@ import (
 	"time"
 
 	"github.com/asaskevich/govalidator"
-	"github.com/go-redis/redis"
+	"github.com/go-redis/redis/v8"
 
 	"github.com/gofiber/fiber/v2"
-	"github.com/gofiber/fiber/v2/internal/uuid"
+	"github.com/google/uuid"
 	"github.com/rishimalgwa/url_shortener_go/database"
 	"github.com/rishimalgwa/url_shortener_go/helpers"
 )
